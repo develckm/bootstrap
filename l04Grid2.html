@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid col</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
+    <style>
+        .row{
+            border: 1px solid green;
+            background: gainsboro;
+        }
+        .row>div,.row>p{
+            border: 1px solid peru;
+            background-color: blanchedalmond;
+        }
+    </style>
+    <script defer src="./bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <main class="container p-1">
+        <h1>부트스트랩 Grid col 열을 더 깊이 있게 다루어 봅시다.</h1>
+        <hr>
+        <h2>col-n으로 열의 너비를 지정해 봅시다.</h2>
+        <div class="row">
+            <div class="col-2">col-2 </div>
+            <div class="col-4">col-4 </div>
+            <div class="col-4">col-4 </div>      
+        </div>
+        <h2>offset으로 열을 오른쪽으로 이동시켜 봅시다.</h2>
+        <div class="row">
+            <div class="col-2">col-2 </div>
+            <div class="col-4">col-4 </div>
+            <div class="col-4 offset-2">col-4 offset-2</div>      
+        </div>
+        <hr>
+        <h2>break point를  이용해 반응형 웹앱 구현</h2>
+        <h3>테블릿(md)에서는 3개 그리드로 나뉘어 보이고 스마트폰(xs)에서는 전체크기로 보이게 합니다. </h3>
+        <div class="row">
+            <div class="col-md col-12"> md-col col-12</div>
+            <div class="col-md col-12"> md-col col-12</div>
+            <div class="col-md col-12"> md-col col-12</div>
+        </div>
+    
+    </main>    
+
+</body>
+</html>
