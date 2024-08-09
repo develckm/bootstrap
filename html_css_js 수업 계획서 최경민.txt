@@ -1,0 +1,121 @@
+﻿HTML CSS JS 수업 계획서 최경민
+HTML (8h)
+1. ﻿﻿HTTP 통신 (1h)
+   1. 인터넷과 웹
+   2. Client & Server
+   3. HTTP
+   4. 웹브라우저
+   5. URL
+   6. HTML5 
+2. ﻿﻿HTML 개요 (1/2h)
+   1. ﻿﻿마크업과 태그 개념
+   2. 구성요소(속성)
+3. 개발환경구축
+   1. vs code 설치
+   2. live server plug in 설치
+4. ﻿﻿텍스트 관련 태그 (1/2h)
+   1. span,b,strong,i..
+5. 블록관력 태그 (1/2h)
+   1. div, p, table, list
+6. 리소스 참조 및 링크 태그 1h
+   1.  ﻿﻿절대경로 , 상대경로
+   2. img
+   3. a
+7. ﻿﻿위키백과 만들기 실습 (2h)
+   1. 참고사이트: https://ko.wikipedia.org/wiki/KIA_타이거즈
+   2. 먼저 보여주고 어떤 태그를 사용하면 될지 팀별 논의
+   3. 배운 걸 가지고 팀별 구현 실습
+   4. 배우지 않은 건 개발자 도구를 통해서 찾아보기 + 설명(페이지 구현 분석 방법 이해)
+8. ﻿﻿양식관련 태그 (2h)
+   1. form action
+   2. submit
+   3. input name
+   4. post 통신
+﻿﻿CSS (4)
+1. ﻿﻿CSS 개요 
+   1. CSS 동작원리
+   2. CSS가 가능한 범위
+2. ﻿﻿선택자 개념
+   1. ﻿﻿전체,태그,아이디, 클래스, 계층, 반응 선택자
+   2. 색깔 변경 실습
+3. box model 1h
+   1. width,height
+   2. ﻿﻿padding
+   3. margin
+   4. ﻿﻿border
+   5. box-sizing
+4. display 
+   1. block
+   2. inline
+   3. inline-block
+   4. flex
+   5. none
+5. float 
+6. 선언법 1h
+   1. ﻿내부,외부,인라인
+7. ﻿﻿회원가입 페이지 제작 (2h)
+BootStrap(4h)
+
+
+1. 반응형 웹 디자인
+   1. 그리드 시스템
+   2. 부트스트랩
+2. 부트스트랩 설치
+3. Layout (1h)
+   1. Grid & col
+   2. breakpoint  
+4. Content
+   1. Typography
+   2. Images
+   3. Tables
+5. Components
+   1. Badge
+   2. Buttons
+   3. Button group
+   4. Card
+6. Forms (1h)
+   1. Input group
+   2. Floating labels
+
+
+7. 실습) BootStrap 활용 웹 페이지 제작(팀별 과제) - 2h
+JavaScript 수업(28h)
+1. 자바스크립트 개요 (8h)
+   1. 입출력
+   2. 변수
+   3. var, let, const ( 가볍게 설명 )
+   4. 자료형
+   5. 연산자
+   6. 조건문
+   7. 반복문
+   8. 배열
+   9. 배열함수
+   10. 함수
+   11. 선언문, 표현식, 화살표함수 — 여기까지 8시간
+2. DOM (8h)
+   1. 브라우저 렌더링, 콘솔창 로그, Tree구조, 요소접근방법
+   2.  단수: getElementById()
+   3. 복수: getElementsByTagName() , getElementsByClassName() etc
+   4.  innerHTML, innerText, value, setAttribute()
+   5. Event선행) 태그 클릭이벤트 속성
+   6. 실습) 숫자 카운팅
+   7. Event & Event Handler        
+   8. Event 종류, 적용방법( on~, addEventListener(이벤트, 이벤트핸들러(콜백함수) )
+   9. 실습) 복수 노드에 대한 이벤트 적용 실습
+   10. 실습1) 숫자 맞추기
+   11. 실습2) 가위바위보게임(상황보고)
+3.  Node 다루기(4h)
+   1.  요소 생성, 추가, 삭제, 복제 (2h)
+   2.  실습) TodoList ( BootStrap 활용, 할일추가/출력/삭제 ) (2h)
+4. 비동기 통신 (8h)
+   1. ajax 동기 vs 비동기 통신
+   2. fetch API 구조
+   3. 실습1) 영화진흥위원회 API 활용(데이터) — 4시간
+      1. 10개의 영화정보를 리스트 형태로 웹 페이지에 출력 ( 순위. 영화명 (버튼을 눌렀을 때 ) )
+      2. 기간 검색 기능 추가
+      3. 디자인은 자유
+   4. 실습2) Kakao Map API 활용(기능) - 2h
+      1. 공공데이터 포털이나 위치정보 제공하는 API 찾아보기
+      2. 받아온 정커 여러 개 마커 찍어보기
+   5. 실습3) OpenWeather API 활용 - 2h
+      1. 도시이름 입력 → 날씨(온도, 풍향, 날씨 icon)
