@@ -10,18 +10,23 @@
         .row{
             border: 1px solid green;
             background: gainsboro;
+            min-height: 50px;
         }
         .row>div,.row>p{
             border: 1px solid peru;
             background-color: blanchedalmond;
+            text-align: center;
+            font-weight: bolder;
+            font-size: larger;
         }
+        
     </style>
     <script defer src="./bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
     <main class="container p-1">
         <h1>부트스트랩 Grid col 열을 더 깊이 있게 다루어 봅시다.</h1>
-        <hr>
+        <hr class="my-5">
         <h2>col-n으로 열의 너비를 지정해 봅시다.</h2>
         <div class="row">
             <div class="col-2">col-2 </div>
@@ -34,9 +39,9 @@
             <div class="col-4">col-4 </div>
             <div class="col-4 offset-2">col-4 offset-2</div>      
         </div>
-        <hr>
+        <hr class="my-5">
         <h2>break point를  이용해 반응형 웹앱 구현</h2>
-        <p>테블릿(md)에서는 3개 그리드로 나뉘어 보이고 스마트폰(xs)에서는 전체크기로 보이게 합니다. </p>
+        <h3>테블릿(md)에서는 3개 그리드로 나뉘어 보이고 스마트폰(xs)에서는 전체크기로 보이게 합니다. </h3>
         <div class="row">
             <div class="col-md col-12"> md-col col-12</div>
             <div class="col-md col-12"> md-col col-12</div>
@@ -48,18 +53,19 @@
             <div class="col-md"> md-col</div>
             <div class="col-md"> md-col</div>
         </div>
-
-        <p> 작은 화면에서는 내용과 광고가 차례로 block 처럼 존재하다가 큰화면(lg)에서 부터 내용이 중간으로 이동하고 광고가 좌우로 이동합니다. </p>
+        <hr class="my-5">
+        <h3> 작은 화면에서는 내용과 광고가 차례로 block 처럼 존재하다가 큰화면(lg)에서 부터 내용이 중간으로 이동하고 광고가 좌우로 이동합니다. </h3>
         <div class="row">
             <div class="col-lg order-lg-1"> <br><br>내용입니다. 안녕하세요~ <br><br><br></div>
             <div class="col-lg-2 order-lg-0"> 왼쪽광고</div>
             <div class="col-lg-2 order-lg-2"> 오른쪽광고</div>
         </div>
 
-        <hr>
+        <hr class="my-5">
         <h2>col 을 flex 정렬 하세요.</h2>
         <p>부트스트랩 Grid 시스템은 css flex 로 정의되어 있습니다. 때문에 row 는 display 가 flex 이고 col 은 flex item 입니다. </p>
         <p>부트스트랩에서 디스플레이를 클래스에 d-block,d-inline,d-flex 등으로 쉽게 정의할 수 있는데 row는 이미 d-flex가 정의된 상태입니다.</p>
+        <hr class="my-5">
 
         <h3>flex 정렬 기본값 : justify-content-start / align-items-stretch</h3>
         <div class="row justify-content-start align-items-stretch" style="height: 40px;">
@@ -67,18 +73,23 @@
             <div class="col-1">col-1</div>
             <div class="col-1">col-1</div>
         </div>
+        <hr class="my-5">
+
         <h3>justify-content-end / align-items-baseline </h3>
         <div class="row justify-content-end align-items-baseline" style="height: 40px;">
             <div class="col-1">col-1</div>
             <div class="col-1">col-1</div>
             <div class="col-1">col-1</div>
         </div>
+        <hr class="my-5">
         <h3>justify-content-center / align-items-center</h3>
         <div class="row justify-content-center align-items-center" style="height: 40px;">
             <div class="col-1">col-1</div>
             <div class="col-1">col-1</div>
             <div class="col-1">col-1</div>
         </div>
+        <hr class="my-5">
+
         <h3>justify-content-around /align-items-end</h3>
         <div class="row justify-content-around align-items-end" style="height: 40px;">
             <div class="col-1">col-1</div>
