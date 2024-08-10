@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <h1>부트스트랩에서 제공하는 다양한 Components</h1>
+        
+        <hr>
+        <h2>Buttons</h2>
+        <h3>버튼 모양의 컴포넌트 생성 btn btn-color, btn-outlink-color  b5btn</h3>
+        <!-- b5listgroup -->
+        <ul class="list-group">
+            <li class="list-group-item"> 
+                <button type="button" class="btn btn-primary">중요 버튼</button>
+                <button type="button" class="btn btn-primary" disabled>중요 버튼</button>
+                <button type="button" class="btn btn-outline-primary">중요 버튼</button>
+                <button type="button" class="btn btn-outline-primary" disabled>중요 버튼</button>
+            </li>
+            <li class="list-group-item">
+                <button type="button" class="btn btn-danger">위험 버튼</button>
+    
+            </li>
+            <li class="list-group-item">
+                <button type="button" class="btn btn-success">성공 버튼</button>
+            </li>
+        </ul>
+        <hr>
+        <h3>버튼의 사이즈 조절</h3>
+        <p> 
+            <button type="button" class="btn btn-primary btn-lg">중요 버튼</button>
+            <button type="button" class="btn btn-primary">중요 버튼</button>
+            <button type="button" class="btn btn-primary btn-sm">중요 버튼</button>
+        </p>
+        <hr>
+        <h3>버튼 그릅 bs5-bgroup </h3>
+        <p>
+            <div class="btn-group" role="group" aria-label="Button group name">
+                <button
+                    type="button"
+                    class="btn btn-primary"
+                >
+                    First One
+                </button>
+                <button
+                    type="button"
+                    class="btn btn-primary"
+                >
+                    Second One
+                </button>
+                <button
+                    type="button"
+                    class="btn btn-primary"
+                >
+                    Third One
+                </button>
+            </div>
+            <div
+                class="btn-group"
+                role="group"
+                aria-label="Basic checkbox toggle button group"
+            >
+                <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btncheck1"
+                    autocomplete="off"
+                />
+                <label
+                    class="btn btn-outline-primary"
+                    for="btncheck1"
+                    >First One</label
+                >
+            
+                <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btncheck2"
+                    autocomplete="off"
+                />
+                <label
+                    class="btn btn-outline-primary"
+                    for="btncheck2"
+                    >Second One</label
+                >
+            
+                <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btncheck3"
+                    autocomplete="off"
+                />
+                <label
+                    class="btn btn-outline-primary"
+                    for="btncheck3"
+                    >Third One</label
+                >
+            </div>
+        </p>
+
+        <hr>
+        <h2>Badges </h2>
+        <button
+            class="btn btn-outline-primary"
+        >
+            bs5-badge-button
+            <span
+                class="badge bg-success rounded-pill"
+                >12</span
+            >
+        </button>
+        <hr>
+        <h6
+            >bs5-badge-heading<span
+                class="badge bg-danger rounded-pill"
+                >New</span
+            ></h6
+        >
+        <hr>
+        <button
+            class="btn btn-primary position-relative"
+        >
+            bs5-badge-positioned
+            <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+            >
+                99+
+                <span class="visually-hidden">unread messages</span>
+            </span>
+        </button>
+        <hr>
+        <h2>Card bs5-card-align</h2>
+        <div class="card text-start w-25">
+            <img class="card-img-top" src="./고양이.jpeg" alt="Title" />
+            <div class="card-body">
+                <h4 class="card-title">고양이</h4>
+                <p class="card-text">고양이가 점프합니다.</p>
+            </div>
+        </div>
+        <br><br><br><br><br>
+    </div>
+</body>
+</html>
